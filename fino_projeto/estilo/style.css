@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Ysabeau+Office:ital,wght@0,1;0,100;0,200;0,800;1,1;1,100;1,200&display=swap');
+
+/*font-family: 'La Belle Aurore', cursive;*/
+/*font-family: 'Ysabeau Office', sans-serif;*/
+/*font-family: 'Sarala', sans-serif;*/
+
+/* Paleta de cores
+#E5EFFE Azul mais claro
+#D5E7F1 Azul médio
+#4076CC Azul mais escuro
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(1200deg,#D5E7F1, #E5EFFE );
+    background-position: center;    
+    }
+
+.cabecalho {  /*Flex pai, o restante que n tem "display:flex" são filhos*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px 0px 20px; 
+}
+
+.cabecalho-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.cabecalho-logo img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+  }
+.cabecalho-menu {
+    display: flex;
+    gap: 30px; /*gap configura a distância entre os itens, nesse caso entre os p*/
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    padding-right: 40px;
+}
+
+.cabecalho-menu-item:hover {
+    text-decoration: underline;
+   
+}
+
+.cabecalho-menu-item:hover > p {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.521);
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-principal {
+    font-family: 'La Belle Aurore', cursive;
+    font-weight: bold;
+    font-size: 60px;
+    color:black;
+}
+
+.paragrafo-principal {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: black;
+}
+
+.conteudo-principal-imagem {
+    height: 430px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-principal {
+    width: 1150px;
+    height: 500px;
+    overflow-x: auto;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#container-imagem {
+    background-color: grey;
+    width: 250px;
+    height: 205px;
+}
+
+
+
