@@ -54,7 +54,7 @@ body {
     font-family: 'Sarala', sans-serif;
     color: black;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 20px;
     padding-right: 40px;
 }
 
@@ -115,10 +115,20 @@ body {
     align-items: center;
 }
 
-#container-imagem {
+.container-principal img {
     background-color: grey;
+    min-width: 250px;
+    height: 250px;
+    margin-left: 14px;
+    border-radius: 20px;
+}
+
+.descritivo_imagem {
+    background-color: green;
+    height: 30px;
     width: 250px;
-    height: 205px;
+    margin-left: 14px;
+    border-radius: 20px;
 }
 
 
