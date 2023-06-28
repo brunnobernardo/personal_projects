@@ -21,21 +21,21 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(1200deg,#D5E7F1, #E5EFFE );
-    background-position: center;    
+    background: linear-gradient(68.15deg ,#D5E7F1 16.62%, #E5EFFE 85.61% );
+    background-position: center;
     }
 
-.cabecalho {  /*Flex pai, o restante que n tem "display:flex" são filhos*/
+.cabecalho { 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0px 0px 20px; 
+    padding: 30px 0px 0px 50px; 
 }
 
 .cabecalho-logo {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -45,6 +45,7 @@ body {
     height: 100%; 
     object-fit: cover;
   }
+
 .cabecalho-menu {
     display: flex;
     gap: 30px; /*gap configura a distância entre os itens, nesse caso entre os p*/
@@ -54,24 +55,20 @@ body {
     font-family: 'Sarala', sans-serif;
     color: black;
     font-weight: 400;
-    font-size: 20px;
-    padding-right: 40px;
+    font-size: 32px;
+    padding-right: 110px;
 }
 
 .cabecalho-menu-item:hover {
     text-decoration: underline;
-   
-}
-
-.cabecalho-menu-item:hover > p {
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.521);
+    cursor: pointer;
 }
 
 .conteudo-principal {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .conteudo-principal-escrito {
@@ -82,54 +79,73 @@ body {
 .titulo-principal {
     font-family: 'La Belle Aurore', cursive;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 100px;
     color:black;
 }
 
-.paragrafo-principal {
+.subtitulo-principal {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 30px;
     color: black;
 }
 
 .conteudo-principal-imagem {
-    height: 430px;
+    height: 800px;
 }
 
-.container {
+.container-servicos {
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
 }
 
-.container-principal {
-    width: 1150px;
-    height: 500px;
+.container-principal-servicos {
+    width: 80%;
+    height: 800px;
     overflow-x: auto;
     background-color: white;
     border-radius: 30px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.146)
 }
 
-.container-principal img {
-    background-color: grey;
-    min-width: 250px;
-    height: 250px;
-    margin-left: 14px;
+#servicos {
+    min-width: 370px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-radius: 20px;
 }
 
-.descritivo_imagem {
-    background-color: green;
-    height: 30px;
-    width: 250px;
+#container-img {
+    min-width: 420px;
+    height: 420px;
     margin-left: 14px;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
 }
+
+#descritivo-img {
+    background: rgba(67, 62, 62, 0.92);
+    height: 150px;
+    width: 420px;
+    margin-left: 14px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#descritivo-img > p {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
 
 
 
