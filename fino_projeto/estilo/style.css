@@ -16,11 +16,9 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 
 body {
-    font-size: 100%;
     background: linear-gradient(68.15deg, #E5EFFE 16.62%, #D5E7F1 85.61%);
     background-position: center;
 }
@@ -30,13 +28,13 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 300px;
+    height: 280px;
     background-image: linear-gradient(to top,  #E5EFFE, #588bdd );
 }
 
 .cabecalho-logo {
-    width: 250px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
     border-radius:50%;
     overflow: hidden;
     border: 0.5px solid #588bdd;
@@ -44,7 +42,7 @@ body {
 
 .cabecalho-menu-item {
     font-family: 'Ysabeau Office', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0);
 }
@@ -54,7 +52,7 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 50px;
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.027);
 }
@@ -83,7 +81,7 @@ nav > a:hover{
 .titulo-principal {
     font-family: 'La Belle Aurore', cursive;
     font-weight: bold;
-    font-size: 5.5rem;
+    font-size: 4.0rem;
     color:black;
 }
 
@@ -92,7 +90,7 @@ nav > a:hover{
 }
 
 .conteudo-principal-imagem {
-    height: 500px;
+    height: 400px;
 }
 
 .container-servicos {
