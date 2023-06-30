@@ -60,7 +60,25 @@
     }
 
     .conteudo-principal-imagem {
-        height: 450px;
+        height: 500px;
+    }
+
+    #servicos {
+        height: 400px;
+    }
+    
+    #container-img {
+        min-width: 320px;
+        height: 320px;
+    }
+    
+    #descritivo-img {
+        height: 50px;
+        width: 320px;
+    }
+    
+    #descritivo-img > p {
+        font-size: 30px;
     }
 
 }
