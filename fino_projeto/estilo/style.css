@@ -19,6 +19,7 @@
 }
 
 body {
+    /* background-color: #E5EFFE;*/
     background: linear-gradient(68.15deg, #E5EFFE 16.62%, #D5E7F1 85.61%);
     background-position: center;
 }
@@ -28,7 +29,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 300px;
+    height: 260px;
     background-image: linear-gradient(to top,  #E5EFFE, #588bdd );
 }
 
@@ -92,15 +93,20 @@ nav > a:hover{
 }
 
 .container-servicos {
+    display: none;
+}
+
+.container-carousel {
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    margin-top: 10px;
 }
 
-.container-principal-servicos {
+.carousel {
     width: 90%;
-    height: 600px;
+    height: 500px;
     overflow-x: auto;
     background-color: white;
     border-radius: 30px;
@@ -110,35 +116,10 @@ nav > a:hover{
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.146)
 }
 
-#servicos {
-    height: 270px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    
-}
-
-#container-img {
-    min-width: 250px;
-    height: 250px;
-    margin-left: 14px;
-    border-radius: 20px 20px 0px 0px;
-}
-
-#descritivo-img {
-    background: rgba(67, 62, 62, 0.92);
-    height: 25px;
-    width: 250px;
-    margin-left: 14px;
-    border-radius: 0px 0px 20px 20px;
-}
-
-#descritivo-img > p {
-    color: white;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: 'Ysabeau Office', sans-serif;
+.carousel iframe {
+    width: 90%;
+    height: 500px;
+    border-radius: 30px;
+    position: absolute;
+    border: none;
 }
