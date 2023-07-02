@@ -98,12 +98,3 @@ body{
   }
 }
 
-#link-servicos {
-  color: #222;
-  width: 400px;
-  height: 50px;
-}
-
-#link-servicos > a {
-  color: black;
-}

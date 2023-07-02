@@ -42,6 +42,12 @@
         padding-right: 100px;
     }
 
+    nav > a:hover{
+        background-color: #588bdd4d;
+        color: #588bdd;
+        cursor: pointer;
+    }
+
     .conteudo-principal {
         display: flex;
         flex-direction: row;
