@@ -63,7 +63,7 @@ nav > a {
     transition-duration: 0.5s;
 }
 
-nav > a:hover{
+nav > a:active{
     background-color: #588bdd4d;
     color: #588bdd;
     cursor: pointer;
@@ -93,33 +93,68 @@ nav > a:hover{
 }
 
 .container-servicos {
-    display: none;
-}
-
-.container-carousel {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    margin-top: 10px;
 }
 
-.carousel {
+.container-principal-servicos {
     width: 90%;
-    height: 500px;
-    overflow-x: auto;
+    height: 1400px;
+    overflow-x: hidden;
     background-color: white;
     border-radius: 30px;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.146)
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.146);
+    position: relative;
 }
 
-.carousel iframe {
-    width: 90%;
-    height: 500px;
-    border-radius: 30px;
-    position: absolute;
-    border: none;
+#servicos {
+    height: 250px;
+    width: 250px;
+    transition: width 1s, height 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+
+#servicos:active > img {
+    height: 350px;
+    width: 300px;
+}
+
+#servicos:active > div {
+    height: 700px;
+    width: 300px;
+}
+
+#container-img {
+    min-width: 250px;
+    height: 250px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#descritivo-img {
+    height: 50px;
+    width: 250px;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    justify-content: center;
+    background: rgba(67, 62, 62, 0.92);
+}
+
+#descritivo-img > a {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Ysabeau Office', sans-serif;
+    transition-duration: 0.5s;
+    color: white;
+    text-decoration: none;
 }
