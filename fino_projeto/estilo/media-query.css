@@ -110,6 +110,11 @@
     
     #descritivo-img > a {
         font-size: 30px;
+        transition: 0.5s;
+    }
+
+    #descritivo-img > a:hover {
+        color: #222;
     }
 
     .divulgacao a:hover {
