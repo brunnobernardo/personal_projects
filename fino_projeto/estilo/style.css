@@ -43,6 +43,7 @@ body {
 }
 
 .cabecalho-menu-item {
+    color: #222;
     font-family: 'Ysabeau Office', sans-serif;
     font-size: 1.2em;
     margin: auto;
@@ -93,14 +94,14 @@ nav > a:active{
     height: 400px;
 }
 
-.container-servicos {
+.container-tratamentos {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.container-principal-servicos {
+.container-principal-tratamentos {
     width: 90%;
     height: 1400px;
     overflow-x: hidden;
@@ -115,7 +116,12 @@ nav > a:active{
     margin-bottom: 100px;
 }
 
-#servicos {
+.titulo-tratamentos {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 30px;
+}
+
+#tratamentos {
     height: 250px;
     width: 250px;
     transition: width 1s, height 1s;
@@ -126,12 +132,12 @@ nav > a:active{
     border-radius: 20px;
 }
 
-#servicos:active > img {
+#tratamentos:active > img {
     height: 350px;
     width: 300px;
 }
 
-#servicos:active > div {
+#tratamentos:active > div {
     height: 700px;
     width: 300px;
 }
@@ -234,7 +240,7 @@ nav > a:active{
     font-weight: bold;
 }
 
-.divulgacao a:hover {
+.divulgacao a:active {
     text-decoration: underline;
     color: #222;
 }

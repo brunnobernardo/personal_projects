@@ -66,33 +66,34 @@
     }
 
     .conteudo-principal-imagem {
-        height: 500px;
+        height: 550px;
     }
 
-    .container-servicos {
+    .container-tratamentos {
         display: flex;
         justify-content: center;
         flex-direction: row;
         align-items: center;
+        position: relative;
     }
 
-    .container-principal-servicos {
-        height: 600px;
+    .container-principal-tratamentos {
+        height: 630px;
         display: flex;
         flex-direction: row;
     }
 
-    #servicos {
+    #tratamentos {
         height: 370px;
         width: 320px;
     }
 
-    #servicos:hover > img {
+    #tratamentos:hover > img {
         height: 450px;
         width: 400px;
     }
 
-    #servicos:hover > div {
+    #tratamentos:hover > div {
         height: 100px;
         width: 400px;
     }
@@ -109,6 +110,18 @@
     
     #descritivo-img > a {
         font-size: 30px;
+    }
+
+    .divulgacao a:hover {
+        text-decoration: underline;
+        color: #222;
+    }
+
+    .titulo-tratamentos {
+        position: absolute;
+        top: 0;
+        padding-top: 10px;
+        font-size: 35px;
     }
 
 }
