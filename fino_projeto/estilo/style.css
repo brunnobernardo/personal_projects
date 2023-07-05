@@ -92,6 +92,8 @@ nav > a:active{
 
 .conteudo-principal-imagem {
     height: 400px;
+    filter: drop-shadow(8px 8px 4px #4076CC);
+    transition: 0.5s;
 }
 
 .container-tratamentos {
@@ -104,7 +106,6 @@ nav > a:active{
 .container-principal-tratamentos {
     width: 90%;
     height: 1400px;
-    overflow-x: hidden;
     background-color: white;
     border-radius: 30px;
     display: flex;
@@ -172,6 +173,7 @@ nav > a:active{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .wrapper {
@@ -217,24 +219,28 @@ nav > a:active{
     transform: 300ms;
 }
 
-#hover-fx:hover     {
-    background-color: #222;
-    color: #222;
-}
-
 #hover-fx:hover::after {
     opacity: 1;
     transform: scale(1.15);
 }
 
-.divulgacao {
+.fino-odonto {
     font-size: 1.0rem;
     color: #222;
     font-family: 'Sarala', sans-serif;
-    padding-top: 50px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 11%;
 }
 
-.divulgacao  a {
+.divulgacao {
+    font-size: 13px;
+    color: #222;
+    font-family: 'Sarala', sans-serif;
+    padding-top: 30px;
+}
+
+.divulgacao a {
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -243,4 +249,47 @@ nav > a:active{
 .divulgacao a:active {
     text-decoration: underline;
     color: #222;
+}
+
+.localizacao-contato {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-localizacao-contato {
+    width: 90%;
+    height: 700px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.146);
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.titulo-localizacao {
+    font-family: 'La Belle Aurore', cursive;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color:black;
+    position: absolute;
+    top: 0;
+}
+
+.localizacao {
+    position: absolute;
+    top: 18%;
+}
+
+.container-localizacao-contato img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10%;
 }
