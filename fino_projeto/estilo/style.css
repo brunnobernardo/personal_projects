@@ -11,7 +11,8 @@ font-family: 'Sarala', sans-serif;*/
 /* Paleta de cores
 #E5EFFE Azul mais claro
 #D5E7F1 Azul médio
-#4076CC Azul mais escuro
+#588bdd Azul escuro 
+#0C1B32 Azul mais escuro
 */
 
 * {
@@ -81,9 +82,8 @@ nav > a:active{
 
 .titulo-principal {
     font-family: 'La Belle Aurore', cursive;
-    font-weight: bold;
     font-size: 3.5rem;
-    color:black;
+    color:#222;
 }
 
 .subtitulo-principal {
@@ -92,7 +92,7 @@ nav > a:active{
 
 .conteudo-principal-imagem {
     height: 400px;
-    filter: drop-shadow(8px 8px 4px #4076CC);
+    filter: drop-shadow(8px 8px 4px #588bdd);
     transition: 0.5s;
 }
 
@@ -106,7 +106,7 @@ nav > a:active{
 .container-principal-tratamentos {
     width: 90%;
     height: 1400px;
-    background-color: white;
+    background-color: #f2f2f2;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -120,6 +120,7 @@ nav > a:active{
 .titulo-tratamentos {
     font-family: 'La Belle Aurore', cursive;
     font-size: 30px;
+    color: #222;
 }
 
 #tratamentos {
@@ -168,7 +169,7 @@ nav > a:active{
 }
 
 .rodape {
-    background-image: linear-gradient(to bottom,  #E5EFFE, #588bdd );
+    background-image: linear-gradient(to bottom,  #E5EFFE, #588bdd  );
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -261,7 +262,7 @@ nav > a:active{
 
 .container-localizacao-contato {
     width: 90%;
-    height: 700px;
+    height: 520px;
     background-color: white;
     border-radius: 30px;
     display: flex;
@@ -277,19 +278,24 @@ nav > a:active{
     font-family: 'La Belle Aurore', cursive;
     font-weight: bold;
     font-size: 2.5rem;
-    color:black;
+    color:#0C1B32;
     position: absolute;
     top: 0;
-}
-
-.localizacao {
-    position: absolute;
-    top: 18%;
 }
 
 .container-localizacao-contato img {
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 10%;
+    top: 14%;
 }
+
+.localizacao {
+    position: absolute;
+    top: 27%;
+}
+
+iframe {
+    border-radius: 5px;
+}
+
