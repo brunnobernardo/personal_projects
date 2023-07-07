@@ -1,8 +1,8 @@
 const carousel = document.querySelector(".carousel"),
 firstImg = carousel.querySelectorAll("img")[0],
-arrowIcons = document.querySelectorAll(".wrapper i");
+arrowIcons = document.querySelectorAll(".arrow-icons i");
 
-let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, positionDiff;
+/*let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, positionDiff;
 
 const showHideIcons = () => {
     // showing and hiding prev/next icon according to carousel scroll left value
@@ -10,6 +10,7 @@ const showHideIcons = () => {
     arrowIcons[0].style.display = carousel.scrollLeft == 0 ? "none" : "block";
     arrowIcons[1].style.display = carousel.scrollLeft == scrollWidth ? "none" : "block";
 }
+*/
 
 arrowIcons.forEach(icon => {
     icon.addEventListener("click", () => {
@@ -19,6 +20,8 @@ arrowIcons.forEach(icon => {
         setTimeout(() => showHideIcons(), 60); // calling showHideIcons after 60ms
     });
 });
+
+/* /// Transformei em comentário o restante do código que programava a função de arrastar o carrosel por meio do toque nas imagens ///
 
 const autoSlide = () => {
     // if there is no image left to scroll then return from here
@@ -35,6 +38,7 @@ const autoSlide = () => {
     // if user is scrolling to the left
     carousel.scrollLeft -= positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff;
 }
+
 
 const dragStart = (e) => {
     // updatating global variables value on mouse down event
@@ -63,6 +67,7 @@ const dragStop = () => {
     autoSlide();
 }
 
+
 carousel.addEventListener("mousedown", dragStart);
 carousel.addEventListener("touchstart", dragStart);
 
@@ -71,3 +76,4 @@ carousel.addEventListener("touchmove", dragging);
 
 document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("touchend", dragStop);
+*/
