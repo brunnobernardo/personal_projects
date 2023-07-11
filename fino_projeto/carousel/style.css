@@ -15,6 +15,15 @@ body{
   justify-content: center;
   min-height: 100vh;*/
   background: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+.section-carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper{
