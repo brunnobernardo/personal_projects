@@ -4,87 +4,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media Query Fino Odonto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo/style.css">
-    <link rel="stylesheet" href="estilo/media-query.css">
-    <script src="script.js"></script>
+    <title>Fino Odonto</title>
 </head>
 
 <body>
-    <header class="cabecalho">
 
-        <div id="slider">
-            <img class="selected" src="imagens/img_1.jpg" alt="">
-            <img src="imagens/img_2.jpg" alt="">
-            <img src="imagens/img_3.jpg" alt="">
-            <img src="imagens/img_4.jpg" alt="">
-        </div>
-
-        <nav class="cabecalho-menu">
-            <a class="cabecalho-menu-item">Sobre nós</a>
-            <a class="cabecalho-menu-item">Tratamentos</a>
-            <a class="cabecalho-menu-item">Entre em Contato</a>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid ms-5">
+                <a class="navbar-brand" href="#">FINO ODONTO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">FINO ODONTO</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-active px-5 fs-5" aria-current="page" href="#">Sobre
+                                    Nós</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-active px-5 fs-5" href="#">Entre em contato</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link nav-link-active px-5 fs-5" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tratamentos
+                                </a>
+                                <div class="collapse navbar-collapse d-lg-flex justify-content-end me-5"
+                                    id="navbarNavDropdown">
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Ortodontia</a></li>
+                                        <li><a class="dropdown-item" href="#">Implantodontia</a></li>
+                                        <li><a class="dropdown-item" href="#">Endodontia</a></li>
+                                        <li><a class="dropdown-item" href="#">Invisalign</a></li>
+                                    </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+        </div>  
         </nav>
+
+        <!-- <nav class="navbar-expand-lg navbar bg-body-tertiary fixed-top">
+
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#">LOGO FINO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">LOGO FINO</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body">
+
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Sobre Nós</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contato</a>
+                            </li>
+
+                            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown"aria-expanded="false">Tratamentos</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Ortodontia</a></li>
+                                            <li><a class="dropdown-item" href="#">Implantodontia</a></li>
+                                            <li><a class="dropdown-item" href="#">Endodontia</a></li>
+                                            <li><a class="dropdown-item" href="#">Invisalign</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav> -->
 
     </header>
 
-    <main class="conteudo">
-
-        <section class="conteudo-principal">
-
-            <div class="conteduo-principal-escrito">
-                <h1 class="titulo-principal">
-                    fino odontologia
-                </h1>
-                <h2 class="subtitulo-principal">
-                    Odontologia de alta qualidade
-                </h2>
-            </div>
-
-            <img class="conteudo-principal-imagem" src="imagens/ballebot.svg" alt="Médico Dentista">
-
-        </section>
-
-        <section class="container-servicos">
-            <div class="container-principal-servicos">
-                
-                <div id="servicos"> 
-                    <img id="container-img" src="imagens/img_1.jpg" alt="img">
-                    <div id="descritivo-img">
-                        <p>Invisalign</p>
-                    </div>
-                </div>
-
-                <div id="servicos">
-                    <img id="container-img" src="imagens/img_2.jpg" alt="img">
-                    <div id="descritivo-img">
-                        <p>Ortodontia</p>
-                    </div>
-                </div>
-
-                <div id="servicos">
-                    <img id="container-img" src="imagens/img_3.jpg" alt="img">
-                    <div id="descritivo-img">
-                        <p>Implantes</p>
-                    </div>
-                </div>
-
-                <div id="servicos">
-                    <img id="container-img" src="imagens/img_4.jpg" alt="img">
-                    <div id="descritivo-img">
-                        <p>Aparelho</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <footer>
-
-    </footer>
 
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
