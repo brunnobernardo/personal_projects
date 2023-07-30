@@ -1,7 +1,19 @@
 @charset "UTF-8";
 
-.nav-link-active:hover {
-    text-decoration: underline;
-    font-weight: bold;
-    color: gray;
+body {
+    height: 4000px;
 }
+
+.nav-link-active:hover {
+    color: #222;
+    transition: 0.5s;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.nav-link-active:active {
+    color: #222;
+    transition: 0.5s;
+    text-shadow: 1px 1px 1px gray;
+}
+
+
