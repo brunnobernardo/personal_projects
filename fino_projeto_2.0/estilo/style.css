@@ -1,7 +1,21 @@
 @charset "UTF-8";
 
+/* Paleta de cores 
+
+#DAE2E2 azul
+#ECE6D6 rosa claro
+#FFFFCD amarelo
+
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    height: 4000px;
+    width: 100%;
+    height: 100%;
 }
 
 .nav-link-active:hover {
@@ -15,5 +29,10 @@ body {
     transition: 0.5s;
     text-shadow: 1px 1px 1px gray;
 }
+
+.bg-body-navbar {
+    background-color: #ECE6D6;
+}
+
 
 
