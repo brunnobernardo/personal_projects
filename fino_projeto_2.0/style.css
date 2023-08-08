@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+/*
+
+@font-face {
+    font-family: 'Futura PT Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura PT Book'), url('FuturaCyrillicBook.woff') format('woff');
+}
+
 /* Paleta de cores 
 
 #DAE2E2 azul
@@ -17,6 +26,17 @@ body {
     background-color: #FFFFCD;
     width: 100%;
     height: 4000px;
+}
+
+.logo-desktop {
+    width: 90px;
+    height: 70px;
+}
+
+.logo-mobile {
+    width: 80px;
+    height: 60px;
+    margin-left: 20px;
 }
 
 .nav-link-active:hover {
@@ -78,15 +98,25 @@ body {
 }
 
 .img-banner-desktop {
-    background-image: url(./assets/banner-desktop.jpg);
+    background-image: url(./assets/banner-desktop.png);
     width: 600px;
     height: 550px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 50% 0% 50% 0%;
+    /*filter: drop-shadow(-27px 0px 0px #8985F2);*/
 }
 
 .conatiner-conteudo-escrito {
     width: 400px;
+}
+
+.font {
+    font-family: 'Futura PT Book ';
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
 }
