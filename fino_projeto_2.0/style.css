@@ -62,7 +62,7 @@ body {
 
 .background-desktop {
     background-image: linear-gradient(to bottom, #ECE6D6, #DAE2E2);
-    height: 700px;
+    height: 80vh;
 }
 
 .banner {
@@ -70,7 +70,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 }
 
 .img-banner-mobile {
@@ -81,29 +80,14 @@ body {
     --bs-bg-opacity: .2;
 }
 
-.conatiner-conteudo {
-    position: absolute;
-    top: 35%;
-}
-
 .linha {
     border-top: 0.4px solid #c2953c;
-    width: 800px;
-}
-
-.banner-desktop {
-    position: absolute;
-    top: 15%;
-    right: 10%;
+    width: 40vw;
 }
 
 .img-banner-desktop {
-    background-image: url(./assets/banner-desktop.png);
-    width: 600px;
-    height: 550px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    width: 32vw;
+    height: 60vh;
     border-radius: 50% 0% 50% 0%;
     /*filter: drop-shadow(-27px 0px 0px #8985F2);*/
 }
