@@ -26,6 +26,7 @@ body {
     background-color: #FFFFCD;
     width: 100%;
     height: 4000px;
+    overflow-x: hidden;
 }
 
 .logo-desktop {
@@ -73,7 +74,7 @@ body {
 }
 
 .img-banner-mobile {
-    background-image: url(./assets/banner-mobile.jpg);
+    background-image: url(./assets/banner-mobile.png);
 }
 
 .banners-titulo {
@@ -128,3 +129,25 @@ body {
     height: 600px;
 }
 
+.tratamentos {
+    height: 400px;
+}
+
+.tratamentos-img-desktop {
+    width: 952px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.tratamentos-img-mobile {
+    width: 558px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    scroll-behavior: none;
+}
