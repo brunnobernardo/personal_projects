@@ -25,7 +25,6 @@
 body {
     background-color: #FFFFCD;
     width: 100%;
-    height: 4000px;
 }
 
 .logo-desktop {
@@ -91,7 +90,7 @@ body {
 }
 
 .conatiner-conteudo-escrito {
-    width: 500px;
+    width: 450px;
 }
 
 .font {
@@ -113,4 +112,10 @@ body {
 
 .tratamentos {
     height: 400px;
+}
+
+.bg-background-footer {
+    background-image: linear-gradient(to bottom, #ECE6D6, #DAE2E2);
+    height: 50vh;
+    margin-top: 20vh;
 }
