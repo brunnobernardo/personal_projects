@@ -93,10 +93,6 @@ body {
     width: 400px;
 }
 
-.font {
-    font-family: 'Futura PT Book ';
-}
-
 .icon {
     width: 50px;
     height: 50px;
@@ -119,132 +115,70 @@ body {
     margin-top: 20vh;
 }
 
-footer .content {
-    max-width: 1250px;
-    padding: 30px 40px 40px 40px;
-}
-
-footer .content .top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 25px;
-}
-
-.content .top .media-icons {
-    display: flex;
-}
-
-.content .top .media-icons a {
-    height: 40px;
-    width: 40px;
-    margin: 0 8px;
+.icons-fotter {
+    color:#fff;
+    padding: 6px 12px;
+    margin: 0px 8px 0px 8px;
     border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    color: #fff;
-    font-size: 17px;
-    text-decoration: none;
     transition: all 0.4s ease;
 }
 
-.top .media-icons a:nth-child(1)  {
+.icon-facebook {
     background: #4267b2;
 }
 
-.top .media-icons a:nth-child(1):hover  {
+.icon-facebook:hover {
     color: #4267b2;
     background: #222;
 }
 
-.top .media-icons a:nth-child(2)  {
+.icon-instagram {
     background: #e1306c;
 }
 
-.top .media-icons a:nth-child(2):hover  {
+.icon-instagram:hover {
     color: #e1306c;
     background: #222;
 }
 
-.top .media-icons a:nth-child(3)  {
+.icon-linkedin {
     background: #0077b5;
 }
 
-.top .media-icons a:nth-child(3):hover  {
+.icon-linkedin:hover {
     color: #0077b5;
     background: #222;
 }
 
-footer .link-boxes {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-footer .content, .link-boxes, .box {
-   width: calc(100% / 3 -10px);
-}
-
-.content, .link-boxes, .box, .link_name {
+.footer-itens {
     color: #222;
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 10px;
-    position: relative;
-}
-
-.link-boxes .box .link_name::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    height: 2px;
-    width: 35px;
-    background: #222;
-}
-
-.content, .link-boxes, .box li {
-    margin: 6px 0;
     list-style: none;
-}
-
-.content, .link-boxes, .box li a {
-    color: #222;
-    font-size: 14px;
-    font-weight: 400;
+    padding: 1px 0px 1px 0px;
     text-decoration: none;
     transition: all 0.4s ease;
 }
 
-.content, .link-boxes, .box li a:hover {
+.active-itens:hover {
     font-weight: bold;
-}
-
-.endereco {
-    margin-right: 55px;
-}
-
-fotter .bottom-details {
-    width: 100%;
-    background: #222;
-}
-
-fotter .bottom-details, .bottom_text {
-    max-width: 1250px;
-    margin: auto;
-    padding: 20px 40px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.bottom-details, .bottom_text span, .bottom-details, .bottom-text a {
-    font-size: 14px;
-    font-weight: 400;
-    color: #222;
-    text-decoration: none;
-}
-
-.bottom-details, .bottom-text a:hover {
     text-decoration: underline;
 }
 
+.linha-footer {
+    border-top: 2px solid #222;
+    width: 40px;
+}
+
+.copyright-div {
+    font-size: 14px;
+    font-weight: 400;
+    color: #222;
+}
+
+.copyright-text > a {
+    color: #222;
+}
+
+.copyright-text > a:hover {
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
