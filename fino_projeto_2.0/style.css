@@ -78,7 +78,7 @@ body {
 }
 
 .linha {
-    border-top: 0.4px solid #c2953c;
+    border-top: 2px solid #c2953c;
     width: 40vw;
 }
 
@@ -117,7 +117,7 @@ body {
 
 .icons-fotter {
     color:#fff;
-    padding: 6px 12px;
+    padding: 6px 11px;
     margin: 0px 8px 0px 8px;
     border-radius: 50%;
     transition: all 0.4s ease;
@@ -169,7 +169,7 @@ body {
 }
 
 .copyright-div {
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 400;
     color: #222;
 }
