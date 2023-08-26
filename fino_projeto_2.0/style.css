@@ -98,7 +98,7 @@ body {
     height: 50px;
 }
 
-.img-carrosel{
+.img-carrosel {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -116,7 +116,7 @@ body {
 }
 
 .icons-fotter {
-    color:#fff;
+    color: #fff;
     padding: 6px 11px;
     margin: 0px 8px 0px 8px;
     border-radius: 50%;
@@ -174,11 +174,11 @@ body {
     color: #222;
 }
 
-.copyright-text > a {
+.copyright-text>a {
     color: #222;
 }
 
-.copyright-text > a:hover {
+.copyright-text>a:hover {
     font-weight: bold;
     transition: all 0.4s ease;
 }
@@ -203,7 +203,14 @@ body {
     font-size: 1.1rem;
 }
 
+.container-home-tratamentos-desktop {
+    width: 600px;
+}
+
+.container-home-tratamentos-mobile {
+    width: 400px;
+}
+
 .bg-container-tratamentos {
     background: #8C503A;
 }
-
