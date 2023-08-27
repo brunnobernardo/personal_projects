@@ -112,7 +112,14 @@ body {
 
 .bg-background-footer {
     background-image: linear-gradient(to bottom, #ECE6D6, #DAE2E2);
+}
+
+.footer-margin-home {
     margin-top: 20vh;
+}
+
+.footer-margin-tratamentos {
+    margin-top: 10vh;
 }
 
 .icons-fotter {
@@ -190,10 +197,6 @@ body {
     height: 60vh;
 }
 
-.wrapper-tratamentos {
-    height: 40vh;
-}
-
 .titulo-tratamentos-home {
     font-size: 3rem;
     color: #8C503A;
@@ -213,4 +216,9 @@ body {
 
 .bg-container-tratamentos {
     background: #8C503A;
+    height: 400px;
+}
+
+.tratamentos-itens {
+    list-style: none;
 }
