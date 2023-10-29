@@ -260,3 +260,9 @@ body {
 .tratamentos-itens {
     list-style: none;
 }
+
+
+.center-icons-kids {
+    display: grid;
+    place-items: center;
+}
