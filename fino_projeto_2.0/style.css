@@ -35,10 +35,6 @@ body {
     width: 100%;
 }
 
-.font-kids {
-    font-family: 'Bungee', sans-serif;
-}
-
 .font {
     font-family: 'Open Sans', sans-serif;
 }
@@ -109,7 +105,7 @@ body {
 }
 
 .img-banner-xl {
-    width: 37vw;
+    width: 35vw;
     height: 60vh;
     border-radius: 50% 0% 50% 0%;
     /*filter: drop-shadow(-27px 0px 0px #8985F2);*/
@@ -159,8 +155,8 @@ body {
 
 .icons-fotter {
     color: #fff;
-    padding: 6px 11px;
-    margin: 0px 8px 0px 8px;
+    padding: 5px 10px;
+    margin: 0px 5px 0px 5px;
     border-radius: 50%;
     transition: all 0.4s ease;
 }
@@ -204,6 +200,7 @@ body {
     font-weight: bold;
     text-decoration: underline;
 }
+
 .active-itens-kids:hover {
     font-size: 1.2rem;
 }
@@ -229,6 +226,10 @@ body {
 }
 
 /*Style tratamentos pages*/
+
+.font-kids {
+    font-family: 'Bungee', sans-serif;
+}
 
 .background-desktop-tratamentos {
     background-image: linear-gradient(to bottom, #ECE6D6, #DAE2E2);
@@ -260,4 +261,3 @@ body {
 .tratamentos-itens {
     list-style: none;
 }
-
