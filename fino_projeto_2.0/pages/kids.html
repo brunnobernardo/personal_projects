@@ -43,17 +43,18 @@
                     <div class="offcanvas-body">
 
                         <ul class="navbar-nav justify-content-end flex-grow-1 me-lg-5 pe-lg-5">
-                            <li class="nav-item px-lg-5 nav-link-active " style="font-size: 1.1rem;">
-                                <a class="nav-link fw-bold" aria-current="page" href="../index.html">Sobre Nós</a>
+                            <li class="nav-item px-lg-5" style="font-size: 1.1rem;">
+                                <a class="nav-link fw-bold font nav-link-active" aria-current="page"
+                                    href="../index.html">Sobre Nós</a>
                             </li>
-                            <li class="nav-item px-lg-5 nav-link-active " style="font-size: 1.1rem;">
-                                <a class="nav-link fw-bold"
+                            <li class="nav-item px-lg-5" style="font-size: 1.1rem;">
+                                <a class="nav-link fw-bold font nav-link-active"
                                     href="https://api.whatsapp.com/send/?phone=5511933941000&text=Ol%C3%A1%2C+gostaria+de+viver+a+experi%C3%AAncia+no+Fino%21+&type=phone_number&app_absent=0"
                                     target="_blank">Entre em contato</a>
                             </li>
-                            <li class="nav-item px-lg-5 nav-link-active " style="font-size: 1.1rem;">
+                            <li class="nav-item px-lg-5" style="font-size: 1.1rem;">
                                 <div class="dropdown">
-                                    <a class="nav-link fw-bold" href="#tratamentos" role="button"
+                                    <a class="nav-link fw-bold font nav-link-active" href="#tratamentos" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Tratamentos
                                     </a>
@@ -96,7 +97,12 @@
 
     <main>
 
-        <section class="background-desktop-tratamentos position-relative">
+        <!--Section início-->
+
+        <section class="position-relative" style="background-image: linear-gradient(to bottom, #ECE6D6, #DAE2E2);
+        height: 520px;">
+
+            <!--Balões da section início(Esquerda)-->
 
             <div class="d-none d-md-block" style="position: absolute; top: 17%; left: 3%;">
                 <i class="bi bi-balloon-fill" style="font-size: 6rem; color: rgb(220, 51, 51);opacity: 0.4;"></i>
@@ -110,9 +116,11 @@
                 <i class="bi bi-balloon-fill" style="font-size: 6rem; color: rgb(59, 59, 234);opacity: 0.4;"></i>
             </div>
 
+            <!--Div início mobile-->
+
             <div
-                class="d-block d-lg-none d-flex flex-column justify-content-center align-items-center container-home-tratamentos-mobile position-absolute top-50 start-50 translate-middle">
-                <h1 class="text-center py-1 font-kids fw-bold " style="font-size: 2.2rem; color: #041D26;">
+                class="d-block d-lg-none d-flex flex-column justify-content-center align-items-center position-absolute top-50 start-50 translate-middle" style="width: 400px;">
+                <h1 class="text-center py-1 font-kids fw-bold " style="font-size: 2.2rem;">
                     <span style="color: rgb(220, 51, 51);">O</span>
                     <span style="color: rgb(59, 59, 234);">d</span>
                     <span style="color: rgb(20, 127, 20);">o</span>
@@ -134,17 +142,19 @@
                     <span style="color: rgb(20, 127, 20);">i</span>
                     <span style="color: rgb(228, 159, 32);">l</span>
                 </h1>
-                <h2 class="text-center fs-4 py-1">Cuidando dos sorrisos mais jovens</h2>
-                <p class=" px-3 text-center lh-base text-tratamentos-home font fw-medium" style="font-size: 1rem;">A
+                <h2 class="text-center fs-4 py-1 fw-bold">Cuidando dos sorrisos mais jovens</h2>
+                <p class="px-3 text-center lh-base font fw-medium" style="font-size: 1rem;">A
                     odontologia infantil é uma especialidade da odontologia dedicada à saúde bucal dos baixinhos. É
                     essencial para garantir que os sorrisos mais jovens cresçam saudáveis e bonitos. Esta área da
                     odontologia aborda cuidados preventivos, tratamentos e educação em saúde bucal para os pacientes
                     mais jovens.</p>
             </div>
 
+            <!--Div início desktop-->
+
             <div
-                class="d-none d-lg-block d-flex flex-column justify-content-center align-items-center container-home-tratamentos-desktop position-absolute top-50 start-50 translate-middle">
-                <h1 class="text-center py-1 font-kids fw-bold" style="font-size: 3rem; color: #041D26;">
+                class="d-none d-lg-block d-flex flex-column justify-content-center align-items-center position-absolute top-50 start-50 translate-middle" style="width: 600px;">
+                <h1 class="text-center py-1 font-kids fw-bold" style="font-size: 3rem;">
                     <span style="color: rgb(220, 51, 51);">O</span>
                     <span style="color: rgb(59, 59, 234);">d</span>
                     <span style="color: rgb(20, 127, 20);">o</span>
@@ -166,8 +176,8 @@
                     <span style="color: rgb(20, 127, 20);">i</span>
                     <span style="color: rgb(228, 159, 32);">l</span>
                 </h1>
-                <h2 class="text-center fs-4 py-1">Cuidando dos sorrisos mais jovens</h2>
-                <p class=" text-center lh-base text-tratamentos-home font fw-medium">A odontologia infantil é
+                <h2 class="text-center fs-4 py-1 fw-bold">Cuidando dos sorrisos mais jovens</h2>
+                <p class="text-center lh-base font fw-medium" style="font-size: 1.1rem;">A odontologia infantil é
                     uma
                     especialidade da odontologia dedicada à saúde bucal dos baixinhos. É essencial para garantir
                     que
@@ -175,6 +185,8 @@
                     sorrisos mais jovens cresçam saudáveis e bonitos. Esta área da odontologia aborda cuidados
                     preventivos, tratamentos e educação em saúde bucal para os pacientes mais jovens.</p>
             </div>
+
+            <!--Balões da section início(Direita)-->
 
             <div class="d-none d-lg-block" style="position: absolute; top: 60%; right: 28%;">
                 <i class="bi bi-balloon-fill" style="font-size: 6rem; color: rgb(220, 51, 51);opacity: 0.4;"></i>
@@ -190,45 +202,69 @@
 
         </section>
 
+        <!--Apresentação do tratamento-->
+
         <section>
 
             <div class="row mx-0">
+
+                <!--Div desktop-->
 
                 <div class="col col-12 col-lg-6 card border-0 px-0 mx-0 d-none d-lg-block rounded-0"
                     style="background: rgba(71, 71, 239, 0.82) ;">
                     <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
                         <h2 class="fs-1 fw-bold py-2" style="color: #fff;">Futuro</h2>
-                        <p class="text-center fs-5 px-5 font" style="color: #fff;">A odontologia infantil desempenha um papel vital na promoção de sorrisos saudáveis e felizes nas gerações mais jovens. Ela combina prevenção, tratamento e educação para garantir que as crianças cresçam com dentes fortes, bonitos e o conhecimento necessário para cuidar de sua saúde bucal ao longo da vida.</p>
+                        <p class="text-center fs-5 px-5 font" style="color: #fff;">A odontologia infantil desempenha um
+                            papel vital na promoção de sorrisos saudáveis e felizes nas gerações mais jovens. Ela
+                            combina prevenção, tratamento e educação para garantir que as crianças cresçam com dentes
+                            fortes, bonitos e o conhecimento necessário para cuidar de sua saúde bucal ao longo da vida.
+                        </p>
                     </div>
                 </div>
 
-                <div class="col col-12 col-lg-6 card border-0 tratamentos px-0 rounded-0">
-                    <img src="../assets/img-kids-xxl.jpg"
-                        class="card-img h-100 mx-0 d-none d-xxl-block rounded-0 mx-0" alt="Crinças negras brincando e felizes">
+                <!--Div imagem-->
+
+                <div class="col col-12 col-lg-6 card border-0 px-0 rounded-0">
+
+                    <img src="../assets/img-kids-xxl.jpg" class="card-img h-100 mx-0 d-none d-xxl-block rounded-0 mx-0"
+                        alt="Crinças negras brincando e felizes">
+
                     <img src="../assets/img-kids-xl.jpg"
                         class="card-img h-100 mx-0 d-none d-xl-block d-xxl-none rounded-0 mx-0"
                         alt="Crinças negras brincando e felizes">
+
                     <img src="../assets/img-kids-lg.jpg"
                         class="card-img h-100 mx-0 d-none d-lg-block d-xl-none rounded-0 mx-0"
                         alt="Crinças negras brincando e felizes">
+
                     <img src="../assets/img-kids-md.jpg"
                         class="card-img h-100 mx-0 d-none d-md-block d-lg-none rounded-0 mx-0"
                         alt="Crinças negras brincando e felizes">
-                    <img src="../assets/img-kids-sm.jpg"
-                        class="card-img h-100 mx-0 d-block d-md-none rounded-0" alt="Familia de pele clara feliz">
+
+                    <img src="../assets/img-kids-sm.jpg" class="card-img h-100 mx-0 d-block d-md-none rounded-0"
+                        alt="Familia de pele clara feliz">
+
                 </div>
 
-                <div class="col col-12 col-lg-6 card border-0 px-0 rounded-0 mx-0 d-block d-lg-none"
+                <!--Div mobile-->
+
+                <div class="col col-12 col-lg-6 card border-0 px-0 rounded-0 mx-0 d-block d-lg-none w-100"
                     style="height: 400px; background: rgba(71, 71, 239, 0.82);">
                     <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
                         <h2 class="fs-1 fw-bold py-2" style="color: #fff;">Futuro</h2>
-                        <p class="text-center px-3 font" style="color: #fff; font-size: 1.2rem;">A odontologia infantil desempenha um papel vital na promoção de sorrisos saudáveis e felizes nas gerações mais jovens. Ela combina prevenção, tratamento e educação para garantir que as crianças cresçam com dentes fortes, bonitos e o conhecimento necessário para cuidar de sua saúde bucal ao longo da vida.</p>
+                        <p class="text-center px-3 font" style="color: #fff; font-size: 1.2rem;">A odontologia infantil
+                            desempenha um papel vital na promoção de sorrisos saudáveis e felizes nas gerações mais
+                            jovens. Ela combina prevenção, tratamento e educação para garantir que as crianças cresçam
+                            com dentes fortes, bonitos e o conhecimento necessário para cuidar de sua saúde bucal ao
+                            longo da vida.</p>
                     </div>
                 </div>
 
             </div>
 
         </section>
+
+        <!--Pontos importantes tratamento-->
 
         <section class="py-5">
 
@@ -297,19 +333,23 @@
 
     </main>
 
-    <footer class="bg-background-footer">
+    <footer style="background-image: linear-gradient(to bottom, #ECE6D6, #DAE2E2); margin-top: 20vh;">
 
-        <div class=" d-flex justify-content-between mx-4 px-4">
+        <div class="d-flex justify-content-between mx-4 px-4">
 
             <div class="my-4">
                 <img class="logo-desktop" src="../assets/so-fino-logo.png" alt="Logo da Fino odontologia">
             </div>
 
             <div class="d-flex align-items-center">
+
                 <a href="#" target="_blank"><i class="bi bi-facebook icon-facebook fs-5 icons-fotter"></i></a>
+
                 <a href="https://www.instagram.com/fino_odontologia/" target="_blank"><i
                         class="bi bi-instagram icon-instagram fs-5 icons-fotter"></i></a>
+
                 <a href="#" target="_blank"><i class="bi bi-linkedin icon-linkedin fs-5 icons-fotter"></i></a>
+
             </div>
 
         </div>
@@ -322,15 +362,16 @@
                         Fino Odontologia
                     </li>
                     <div class="linha-footer"></div>
-                    <li class="footer-itens "><a class="footer-itens active-itens " href="../index.html">Início</a></li>
-                    <li class="footer-itens "><a class="footer-itens active-itens" href="#tratamentos">Sobre nós</a>
+                    <li class="footer-itens "><a class="footer-itens active-itens-footer " href="#">Início</a></li>
+                    <li class="footer-itens "><a class="footer-itens active-itens-footer" href="#tratamentos">Sobre
+                            nós</a>
                     </li>
-                    <li class="footer-itens"><a class="footer-itens active-itens"
+                    <li class="footer-itens"><a class="footer-itens active-itens-footer"
                             href="https://api.whatsapp.com/send/?phone=5511933941000&text=Ol%C3%A1%2C+gostaria+de+viver+a+experi%C3%AAncia+no+Fino%21+&type=phone_number&app_absent=0"
                             target="_blank">Agende
                             uma consulta</a>
                     </li>
-                    <li class="footer-itens"><a class="footer-itens active-itens"
+                    <li class="footer-itens"><a class="footer-itens active-itens-footer"
                             href="https://www.google.com/maps/uv?pb=!1s0x94ce57b679ed7ef5%3A0x578fb3572ff10081!3m1!7e115!4s%2Fmaps%2Fplace%2Ffino%2Bodontologia%2F%40-23.5622232%2C-46.6830753%2C3a%2C75y%2C218.69h%2C90t%2Fdata%3D*213m4*211e1*213m2*211sudokuZ6Zv4Q16j2ZtaC9AQ*212e0*214m2*213m1*211s0x94ce57b679ed7ef5%3A0x578fb3572ff10081%3Fsa%3DX%26ved%3D2ahUKEwi6ysb7g--AAxVdp5UCHYSTB5MQpx96BAhOEAA!5sfino%20odontologia%20-%20Pesquisa%20Google!15sCgIgAQ&imagekey=!1e2!2sudokuZ6Zv4Q16j2ZtaC9AQ&hl=pt-BR&sa=X&ved=2ahUKEwi6ysb7g--AAxVdp5UCHYSTB5MQpx96BAhrEA0"
                             target="_blank">Localização
                             do
@@ -345,21 +386,22 @@
                     </li>
                     <div class="linha-footer"></div>
                     <li class="footer-itens">
-                        <a href="kids.html" class="active-itens-kids footer-itens font-kids">
+                        <a href="./kids.html" class="active-itens-footer-kids footer-itens font-kids">
                             <span style="color: rgb(220, 51, 51);">K</span>
                             <span style="color: rgb(59, 59, 234);">I</span>
                             <span style="color: rgb(20, 127, 20);">D</span>
                             <span style="color: rgb(228, 159, 32);">S</span>
                         </a>
                     </li>
-                    <li class="footer-itens "><a class="active-itens footer-itens "
-                            href="implantodontia.html">Implantodontia</a></li>
-                    <li class="footer-itens"><a class="footer-itens active-itens" href="invisalign.html">Invisalign</a>
+                    <li class="footer-itens "><a class="active-itens-footer footer-itens "
+                            href="./implantodontia.html">Implantodontia</a></li>
+                    <li class="footer-itens"><a class="footer-itens active-itens-footer"
+                            href="./invisalign.html">Invisalign</a></li>
+                    <li class="footer-itens"><a class="footer-itens active-itens-footer"
+                            href="./ortodontia.html">Ortodontia</a>
                     </li>
-                    <li class="footer-itens"><a class="footer-itens active-itens" href="ortodontia.html">Ortodontia</a>
-                    </li>
-                    <li class="footer-itens"><a class="footer-itens active-itens" href="endodontia.html">Endodontia</a>
-                    </li>
+                    <li class="footer-itens"><a class="footer-itens active-itens-footer"
+                            href="./endodontia.html">Endodontia</a></li>
                 </ul>
             </div>
 
@@ -369,8 +411,7 @@
                         Localização do consultório
                     </li>
                     <div class="linha-footer"></div>
-                    <li class="footer-itens text-decoration-none">Rua Joaquim Antunes, 767 - conjunto 22 - Pinheiros,
-                        São Paulo/SP,
+                    <li class="footer-itens">Rua Joaquim Antunes, 767 - conjunto 22 - Pinheiros, São Paulo/SP,
                         CEP: 05415-012</li>
                 </ul>
             </div>
@@ -380,12 +421,14 @@
         <div>
 
             <div class="copyright-div text-center text-decoration-none py-1">
+
                 <span class="copyright-text">Copyright &#169; 2023 <a class="text-decoration-none"
                         href="https://github.com/brunnobernardo" target="_blank">Brunno</a> e <a
                         class="text-decoration-none" href="https://www.linkedin.com/in/maxrpinheiro"
                         target="_blank">Max.</a> Todos os
                     direitos
                     reservados</span>
+
             </div>
 
         </div>
@@ -404,7 +447,9 @@
             </div>
             <div class="modal-body text-center">
                 <i class="bi bi-puzzle" style="font-size: 4rem;"></i>
-                <p class="py-2">A ideia é criar um ambiente acolhedor e amigável no consultório, de forma a diminuir a ansiedade das crianças em relação ao tratamento odontológico. Assim tornando as visitas ao dentista uma experiência positiva.</p>
+                <p class="py-2">A ideia é criar um ambiente acolhedor e amigável no consultório, de forma a diminuir a
+                    ansiedade das crianças em relação ao tratamento odontológico. Assim tornando as visitas ao dentista
+                    uma experiência positiva.</p>
             </div>
             <div class="modal-footer mx-auto">
                 <button type="button" class="btn btn-secondary botao-padrao border-0 " data-bs-dismiss="modal">Fechar
@@ -423,7 +468,9 @@
             </div>
             <div class="modal-body text-center">
                 <i class="bi bi-1-circle" style="font-size: 4rem;"></i>
-                <p class="py-2">Uma etapa importante na odontologia infantil é a primeira visita ao dentista, que geralmente ocorre por volta do primeiro aniversário da criança. Isso estabelece uma base sólida para uma saúde bucal ao longo da vida</p>
+                <p class="py-2">Uma etapa importante na odontologia infantil é a primeira visita ao dentista, que
+                    geralmente ocorre por volta do primeiro aniversário da criança. Isso estabelece uma base sólida para
+                    uma saúde bucal ao longo da vida</p>
             </div>
             <div class="modal-footer mx-auto">
                 <button type="button" class="btn btn-secondary botao-padrao border-0 " data-bs-dismiss="modal">Fechar
@@ -441,9 +488,10 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body text-center">
-                <img src="../assets/icon_prevencao.ico" style="height: 65px; width: 65px;"
-                alt="Dente sendo recuperado">
-                <p class="py-2">Um foco significativo é a prevenção de cáries. Isso envolve a aplicação de selantes, que são revestimentos protetores para os dentes, a promoção de uma dieta saudável para evitar o desenvolvimento de cáries, e visitas frequentes ao consultório.</p>
+                <img src="../assets/icon_prevencao.ico" style="height: 65px; width: 65px;" alt="Dente sendo recuperado">
+                <p class="py-2">Um foco significativo é a prevenção de cáries. Isso envolve a aplicação de selantes, que
+                    são revestimentos protetores para os dentes, a promoção de uma dieta saudável para evitar o
+                    desenvolvimento de cáries, e visitas frequentes ao consultório.</p>
             </div>
             <div class="modal-footer mx-auto">
                 <button type="button" class="btn btn-secondary botao-padrao border-0 " data-bs-dismiss="modal">Fechar
@@ -462,7 +510,10 @@
             </div>
             <div class="modal-body text-center">
                 <i class="bi bi-eye" style="font-size: 4rem;"></i>
-                <p>É importante o acompanhamento do crescimento e desenvolvimento da boca, maxilares e dentição, identificando e tratando precocemente quaisquer problemas que possam surgir. Unidos a instrução para as crianças e seus pais sobre a importância da higiene bucal diária em casa, incluindo escovação e uso do fio dental.</p>
+                <p>É importante o acompanhamento do crescimento e desenvolvimento da boca, maxilares e dentição,
+                    identificando e tratando precocemente quaisquer problemas que possam surgir. Unidos a instrução para
+                    as crianças e seus pais sobre a importância da higiene bucal diária em casa, incluindo escovação e
+                    uso do fio dental.</p>
             </div>
             <div class="modal-footer mx-auto">
                 <button type="button" class="btn btn-secondary botao-padrao border-0 " data-bs-dismiss="modal">Fechar
