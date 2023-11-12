@@ -72,6 +72,10 @@ body {
     background-color: #ECE6D6;
 }
 
+.scrollreveal {
+    visibility: hidden;
+}
+
 /*Classes Main*/
 
 /*1° e 2° section sm-md-lg-xl*/
@@ -87,7 +91,7 @@ body {
     --bs-bg-opacity: 0.2;
 }
 
-.img-banner-sm   {
+.img-banner-sm {
     background-image: url(./assets/banner-sm.png);
 }
 
