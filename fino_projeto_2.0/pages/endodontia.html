@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
@@ -99,12 +100,12 @@
         <!--Section início-->
 
         <section class="d-flex justify-content-center align-items-center" style="background-image: linear-gradient(to bottom, #ECE6D6, #DAE2E2);
-        height: 520px;">
+        height: 550px;">
 
             <!--Div mobile-->
 
             <div
-                class="d-block d-lg-none d-flex flex-column justify-content-center align-items-center" style="width: 400px;">
+                class="d-block d-lg-none d-flex flex-column justify-content-center align-items-center scrollreveal" style="width: 400px;">
                 <h1 class="text-center py-1 fw-bold" style="font-size: 2.8rem; color: #012603;">Endodontia</h1>
                 <h2 class="text-center fs-4 py-1 fw-bold">Preservando Sorrisos</h2>
 
@@ -119,7 +120,7 @@
             <!--Div desktop-->
 
             <div
-                class="d-none d-lg-block d-flex flex-column justify-content-center align-items-center " style="width: 600px;">
+                class="d-none d-lg-block d-flex flex-column justify-content-center align-items-center scrollreveal" style="width: 600px;">
                 <h1 class="text-center py-1 fw-bold" style="font-size: 3rem; color: #012603;">Endodontia</h1>
                 <h2 class="text-center fs-4 py-1 fw-bold">Preservando Sorrisos</h2>
 
@@ -188,7 +189,7 @@
 
         <!--Pontos importantes tratamento-->
 
-        <section class="py-5">
+        <section class="py-5 scrollreveal-2">
 
             <h4 class="px-3 fw-bold text-center pb-1">Um pouquinho mais sobre a endodontia</h4>
 
@@ -279,10 +280,15 @@
 
     <footer style="background-image: linear-gradient(to bottom, #ECE6D6, #DAE2E2); margin-top: 20vh;">
 
-        <div class="d-flex justify-content-between mx-4 px-4">
+        <div class="d-flex justify-content-between mx-3 px-3">
 
-            <div class="my-4">
+            <div class="my-4 d-none d-md-block">
                 <img class="logo-desktop" src="../assets/so-fino-logo.png" alt="Logo da Fino odontologia">
+            </div>
+
+            <div class="my-4 d-block d-md-none">
+                <img style="width: 80px; height: 60px; margin-top: 10px;" src="../assets/so-fino-logo.png"
+                    alt="Logo da Fino odontologia">
             </div>
 
             <div class="d-flex align-items-center">
@@ -377,6 +383,8 @@
         </div>
 
     </footer>
+
+    <script src="../script.js"></script>
 
 </body>
 
