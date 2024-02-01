@@ -2,11 +2,23 @@
 
 /*
 
-Paleta de cores 
+Paleta de cores Antiga
 
 #DAE2E2 azul
 #ECE6D6 rosa claro
 #FFFFCD amarelo
+
+*/
+
+/*
+
+Paleta de cores nova
+
+#CDB419 amerlo mais escuro
+#EACB21 amerlo médio
+#F8D930 amarelo mais claro (body)
+#F3D76C primeiro "laranja"
+#F1E17F segundo "laranja"
 
 */
 
@@ -24,7 +36,8 @@ Paleta de cores
 }
 
 body {
-    background-color: #FFFFCD;
+    /* background-color: #FFFFCD;  Cor antiga   */
+    background-color: #F8D930;
     width: 100%;
 }
 
@@ -69,7 +82,8 @@ body {
 }
 
 .bg-body-navbar {
-    background-color: #ECE6D6;
+   /* background-color: #ECE6D6; Cor antiga */
+   background-color: #F1E17F;
 }
 
 .scrollreveal {
@@ -113,12 +127,13 @@ body {
 }
 
 .background-color-banner-desktop {
-    background-image: linear-gradient(to bottom, #ECE6D6, #DAE2E2);
+    /*background-image: linear-gradient(to bottom, #ECE6D6, #DAE2E2); Cor antiga*/
+    background-image: linear-gradient(to bottom, #F1E17F, #F8D930);
     height: 80vh;
 }
 
 .linha {
-    border-top: 2px solid #c2953c;
+    border-top: 2px solid #222;
     width: 38vw;
 }
 
